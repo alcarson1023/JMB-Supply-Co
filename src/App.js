@@ -1,25 +1,39 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./reset.css";
+import "./App.css";
 
 class App extends Component {
+  state = {};
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
+        <div id="image">
+          <p id="introduction">
+            This is a test of the presidential alert system
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        </div>
+        <div className="nav-bar">
+          <p>RAZZLE DAZZLE</p>
+        </div>
+        <div id="content">
+          <h1>
+            WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE
+            WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO
+            WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE
+            WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO
+            WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE
+            WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO
+            WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE
+            WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO
+            WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE
+            WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO
+            WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE
+            WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO
+            WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE WOOOO WEEEE
+            WOOOO
+          </h1>
+        </div>
       </div>
     );
   }
