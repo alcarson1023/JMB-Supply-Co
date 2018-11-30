@@ -1,44 +1,88 @@
 .App {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
-#content {
-  height: 2500px;
+.content {
+  height: 100vh;
   background-color: gray;
   width: 100vw;
   color: white;
-  font-size: 45px;
+  font-size: 25px;
+  position: relative;
+  z-index: 4;
+}
+.text {
+  padding-top: 50px;
+  color: white;
+  width: 70vw;
+  margin-left: 15vw;
 }
 
 #image {
   height: 100vh;
   width: 100vw;
   background-image: url("./charts-cup-of-coffee-desk-1345089.jpg");
-  /* background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Houston-HD-Skyline-Image-PIC-WPD002289.jpg"); */
-  /* background-image: url("https://www.google.com/imgres?imgurl=http%3A%2F%2Fimgs.abduzeedo.com%2Ffiles%2Ffrancois%2Fgrovemade%2Fdeskshelfsystem%2Fgrovemade_deskshelfsystem_1.jpg&imgrefurl=https%3A%2F%2Fabduzeedo.com%2Fnode%2F84181&docid=q_b1zVz7MKIzYM&tbnid=jH2YPh5JWDpTMM%3A&vet=10ahUKEwjGhL-DiY_eAhUrT98KHQuuBQ0QMwhsKAswCw..i&w=2250&h=1500&bih=917&biw=1680&q=workspace%20image&ved=0ahUKEwjGhL-DiY_eAhUrT98KHQuuBQ0QMwhsKAswCw&iact=mrc&uact=8"); */
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+#opaque-screen {
+  background-color: rgba(66, 66, 66, 0.333);
+  height: 100vh;
+  width: 100vw;
 }
 #introduction {
-  color: white;
-  padding: 300px;
-  font-size: 35px;
-  text-shadow: 8px 8px 8px black;
-  background-attachment: fixed;
+  color: rgb(224, 221, 221);
+  width: 20vw;
+  padding-left: 40vw;
+  padding-top: 35vh;
+  font-size: 45px;
+  position: relative;
+  position: fixed;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 
-.nav-bar {
+.nav-bar-1 {
   background-color: #282c34;
-  height: 75px;
+  height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-
-  position: -webkit-sticky;
+  box-shadow: 0px 10px 10px 10px #282c34;
   position: sticky;
   top: 0;
+  z-index: 5;
+}
+.nav-bar-2 {
+  background-color: #4e9488;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-shadow: 0px 10px 10px 10px #4e9488;
+  position: sticky;
+  top: 50px;
+  z-index: 5;
+}
+.nav-bar-3 {
+  background-color: #944e77;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-shadow: 0px 10px 10px 10px #944e77;
+  position: sticky;
+  top: 100px;
+  z-index: 5;
 }
 
 /* @keyframes App-logo-spin {
