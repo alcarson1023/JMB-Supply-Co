@@ -10,9 +10,7 @@ class App extends Component {
       <div className="App">
         <div id="image">
           <div id="opaque-screen">
-            <p id="introduction">
-              This is a test of the presidential alert system
-            </p>
+            <p id="introduction">Welcome to JMB Supply Co.</p>
           </div>
         </div>
         <div className="nav-bar-1">
@@ -21,9 +19,10 @@ class App extends Component {
         <div className="content">
           <div className="text">
             <h1>
-              We offer one-on-one personal fitness solutions. With over 30 years
-              of combined experience, we can help you achieve your goals safely
-              and quickly!
+              We are an all American business dedicated to helping you find the
+              right tools for the job. Whether you need one piece or a hundred,
+              you can contact us below for a free estimate. We look forward to
+              working with you!
             </h1>
           </div>
         </div>
@@ -33,11 +32,9 @@ class App extends Component {
         <div className="content">
           <div className="text">
             <p>
-              We provide a variety of personalized goals and stratigies that are
-              always adapting (just like you)! As you grow and progress, we'll
-              make sure your time at the gym stays as productive as possibles.
-              We'll help you see your best self sooner and with less
-              frustration, garuanteed!
+              We're a small team of devoted individuals with years of experience
+              working with tools. From valves to vices, we can help you find the
+              piece you're looking for!
             </p>
           </div>
         </div>
@@ -48,11 +45,13 @@ class App extends Component {
           <div className="text">
             <p>
               Enter your contact information below along with a quick
-              description of your fitness goals. We'll get in touch with you
-              soon to schedule a free consultation!
+              description of what you're looking for. We'll get in touch with
+              you within 48 hours!
             </p>
           </div>
-          <input />
+          <input placeholder="Email address" />
+          <br />
+          <input id="supplyInput" placeholder="Supplies needed" />
         </div>
       </div>
     );

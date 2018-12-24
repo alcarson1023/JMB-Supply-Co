@@ -33,7 +33,7 @@
 }
 #introduction {
   color: rgb(224, 221, 221);
-  width: 20vw;
+  width: 40vw;
   padding-left: 40vw;
   padding-top: 35vh;
   font-size: 45px;
@@ -45,6 +45,7 @@
 .nav-bar-1 {
   background-color: #282c34;
   height: 50px;
+  line-height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
