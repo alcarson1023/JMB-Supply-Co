@@ -2,9 +2,36 @@
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
-.content {
+.content-1 {
   height: 100vh;
-  background-color: gray;
+  background-image: url("./colors-design-flatlay-983828.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  color: white;
+  font-size: 25px;
+  position: relative;
+  z-index: 4;
+}
+.content-2 {
+  height: 100vh;
+  background-image: url("./black-and-white-close-up-equipment-210881.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  color: white;
+  font-size: 25px;
+  position: relative;
+  z-index: 4;
+}
+.content-3 {
+  height: 100vh;
+  background-image: url("./architect-architecture-blueprint-271667.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
   color: white;
   font-size: 25px;
@@ -17,6 +44,16 @@
   width: 70vw;
   margin-left: 15vw;
 }
+.opaqueFade {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.3)
+  );
+  width: 100vw;
+  height: 100vh;
+}
 
 #image {
   height: 100vh;
@@ -27,7 +64,7 @@
   background-size: cover;
 }
 #opaque-screen {
-  background-color: rgba(66, 66, 66, 0.333);
+  background-color: rgba(66, 66, 66, 0.4);
   height: 100vh;
   width: 100vw;
 }
@@ -39,7 +76,7 @@
   font-size: 45px;
   position: relative;
   position: fixed;
-  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  /* text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black; */
 }
 
 .nav-bar-1 {
