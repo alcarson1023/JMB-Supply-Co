@@ -4,7 +4,7 @@
 }
 .content-1 {
   height: 100vh;
-  background-image: url("./colors-design-flatlay-983828.jpg");
+  background-image: url("./business-computer-internet-60626.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,7 +16,7 @@
 }
 .content-2 {
   height: 100vh;
-  background-image: url("./black-and-white-close-up-equipment-210881.jpg");
+  background-image: url("./colors-design-flatlay-983828.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,15 +67,17 @@
   background-color: rgba(66, 66, 66, 0.4);
   height: 100vh;
   width: 100vw;
+  text-align: center;
+  justify-content: center;
+  display: flex;
 }
 #introduction {
   color: rgb(224, 221, 221);
   width: 40vw;
-  padding-left: 40vw;
+  /* padding-left: 40vw; */
   padding-top: 35vh;
   font-size: 45px;
-  position: relative;
-  position: fixed;
+  /* position: fixed; */
   /* text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black; */
 }
 
@@ -85,7 +87,6 @@
   line-height: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -99,7 +100,6 @@
   height: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -113,7 +113,6 @@
   height: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
