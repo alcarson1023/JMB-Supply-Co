@@ -11,6 +11,7 @@ export default class WhatDoWeDo extends Component {
         {/* <div className="nav-bar-2">
           <p>WHAT DO WE DO?</p>
         </div> */}
+        <div className="darkBar" />
         <div className="content-2">
           <div className="opaqueFade">
             <div className="text">
