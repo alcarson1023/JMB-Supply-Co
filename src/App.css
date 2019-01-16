@@ -4,7 +4,7 @@
 }
 .content-1 {
   height: 100vh;
-  background-image: url("./business-computer-internet-60626.jpg");
+  background-image: url("./colors-design-flatlay-983828.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,7 +16,7 @@
 }
 .content-2 {
   height: 100vh;
-  background-image: url("./colors-design-flatlay-983828.jpg");
+  background-image: url("./business-computer-internet-60626.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,6 +120,21 @@
   position: sticky;
   top: 100px;
   z-index: 5;
+}
+
+.moveButton {
+  margin: 0 20px 0 20px;
+}
+.movingPiece {
+  margin: 40px 0 30px 0;
+}
+.movingPiece-left {
+  margin: 40px 0 30px 0;
+  padding-right: 200px;
+}
+.movingPiece-right {
+  margin: 40px 0 30px 0;
+  padding-left: 200px;
 }
 
 /* @keyframes App-logo-spin {

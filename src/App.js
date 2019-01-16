@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./reset.css";
 import "./App.css";
-import ReactComponent from "./component";
+import ReactComponent from "./Components/mainPage";
 // import { MuiThemeProvider } from "material-ui/core/MuiThemeProvider";
 
 class App extends Component {
