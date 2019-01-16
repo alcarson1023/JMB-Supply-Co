@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { TweenLite } from "gsap";
 import axios from "axios";
+import MaterialUI from "./whoAreWe-components/material-ui";
 
 export default class WhoAreWe extends Component {
   constructor(props) {
@@ -8,28 +9,28 @@ export default class WhoAreWe extends Component {
     this.myElements = [];
     this.myTween = null;
   }
-  componentDidMount() {
-    console.log(this.myElements);
+  // componentDidMount() {
+  //   console.log(this.myElements);
 
-    axios.get("/api/all_playlists").then(response => {
-      this.setState({ playlists: response.data });
-      console.log("All playlists: ", response.data);
-    });
-  }
-  state = {
-    num: 0,
-    playlists: []
-  };
+  //   axios.get("/api/all_playlists").then(response => {
+  //     this.setState({ playlists: response.data });
+  //     console.log("All playlists: ", response.data);
+  //   });
+  // }
+  // state = {
+  //   num: 0,
+  //   playlists: []
+  // };
 
-  updateNum = () => {
-    this.setState({ num: this.state.num + 1 });
-  };
+  // updateNum = () => {
+  //   this.setState({ num: this.state.num + 1 });
+  // };
 
-  animationThingy = () => {
-    const box = 5;
+  // animationThingy = () => {
+  //   const box = 5;
 
-    TweenLite.to(box, 5, { left: 0 });
-  };
+  //   TweenLite.to(box, 5, { left: 0 });
+  // };
 
   render() {
     // testing();
@@ -44,10 +45,9 @@ export default class WhoAreWe extends Component {
             <div className="text">
               <h1>Cool animations go here</h1>
             </div>
-            <div>
-              <button type="button" onClick={this.updateNum}>
-                Testing: {this.state.num}
-              </button>
+            <div />
+            <div className="materialUI">
+              <MaterialUI />
             </div>
           </div>
         </div>

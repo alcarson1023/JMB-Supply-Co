@@ -137,6 +137,13 @@
   padding-left: 200px;
 }
 
+.materialUI {
+  margin-top: 40px;
+}
+#centerButton {
+  margin: 0 40px 0 40px;
+}
+
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
-import axios from "axios";
+// import axios from "axios";
+import Button from "@material-ui/core/Button";
 
 export default class MovingButtons extends Component {
   state = {
@@ -11,11 +12,6 @@ export default class MovingButtons extends Component {
 
   componentDidMount() {
     console.log("componentDidMount");
-
-    axios.get("/api/all_playlists").then(response => {
-      this.setState({ playlists: response.data });
-      console.log("All playlists: ", response.data);
-    });
   }
 
   button1 = () => {
@@ -45,16 +41,42 @@ export default class MovingButtons extends Component {
           </div>
         )}
         <div className="buttons">
-          <button type="button" className="moveButton" onClick={this.button1}>
+          {/* <div className="moveButton"> */}
+          <Button
+            variant="contained"
+            type="button"
+            color="primary"
+            onClick={this.button1}
+          >
             Left!
-          </button>
+          </Button>
+          {/* </div> */}
 
-          <button type="button" className="moveButton" onClick={this.button2}>
+          {/* <button type="button" className="moveButton" onClick={this.button2}>
             Center!
-          </button>
-          <button type="button" className="moveButton" onClick={this.button3}>
+          </button> */}
+          <Button
+            variant="contained"
+            type="button"
+            color="primary"
+            id="centerButton"
+            onClick={this.button2}
+          >
+            Center!
+          </Button>
+
+          {/* <button type="button" className="moveButton" onClick={this.button3}>
             Right!
-          </button>
+          </button> */}
+
+          <Button
+            variant="contained"
+            type="button"
+            color="primary"
+            onClick={this.button3}
+          >
+            Left!
+          </Button>
         </div>
       </div>
     );
